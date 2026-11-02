@@ -99,7 +99,7 @@ const translations = {
           period: "Haziran 2026 – Ağustos 2026",
           role: "Yazılım Geliştirici Stajyeri",
           company: "Neurosound Dikkat ve Algı Geliştirme Merkezi",
-          location: "Mersin",
+          location: "Afyonkarahisar",
           tag: "Staj",
           summary: "Kurumsal CRM sisteminin modüler arayüz geliştirme ve API entegrasyon süreçlerinde aktif görev aldım.",
           bullets: [
