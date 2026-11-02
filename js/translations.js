@@ -17,7 +17,9 @@ const translations = {
       projects: "Projeler",
       contact: "İletişim",
       statusText: "İş & Staj Fırsatlarına Açık",
-      resumeBtn: "CV İndir"
+      resumeBtn: "CV İndir",
+      resumeTrBtn: "Türkçe CV",
+      resumeEnBtn: "English CV"
     },
     hero: {
       name: "Hilal Şuheda ESER",
@@ -26,7 +28,9 @@ const translations = {
       bio: "Mersin Üniversitesi Bilişim Sistemleri ve Teknolojileri öğrencisiyim. Modern web, mobil ve masaüstü yazılım mimarilerinde uygulamalı deneyime sahip bir Full-Stack Geliştiriciyim. Angular (Standalone), React, Node.js ve Flutter mimarileriyle ölçeklenebilir arayüzler ve güvenli backend servisleri geliştiriyor; yapay zekâ (YOLOv8, ses öznitelik işleme) entegrasyonlarıyla uçtan uca modern yazılım sistemleri üretiyorum.",
       ctaResume: "Özgeçmişi İndir (PDF)",
       ctaProjects: "Projeleri İncele",
-      ctaContact: "İletişime Geç"
+      ctaContact: "İletişime Geç",
+      ctaResumeTr: "Türkçe CV İndir (PDF)",
+      ctaResumeEn: "English Resume (PDF)"
     },
     interactiveCard: {
       statusBadge: "Sistem Aktif & Hazır",
@@ -169,7 +173,9 @@ const translations = {
       projects: "Projects",
       contact: "Contact",
       statusText: "Open to Work & Internships",
-      resumeBtn: "Resume"
+      resumeBtn: "Resume",
+      resumeTrBtn: "Turkish CV",
+      resumeEnBtn: "English CV"
     },
     hero: {
       name: "Hilal Şuheda ESER",
@@ -178,7 +184,11 @@ const translations = {
       bio: "Information Systems and Technologies student at Mersin University. Full Stack Software Developer with hands-on experience in modern web, mobile, and desktop application development. Proficient in Angular (Standalone), React, Node.js, and Flutter — bridging responsive user interfaces with secure backend architectures and applied AI systems (YOLOv8, audio feature processing).",
       ctaResume: "Download Resume (PDF)",
       ctaProjects: "Explore Projects",
-      ctaContact: "Get in Touch"
+      ctaContact: "Get in Touch",
+      ctaResumeTr: "Türkçe CV İndir (PDF)",
+      ctaResumeEn: "English Resume (PDF)",
+      ctaResumeTr: "Download Turkish CV",
+      ctaResumeEn: "Download English Resume"
     },
     interactiveCard: {
       statusBadge: "System Active & Ready",
