@@ -153,7 +153,8 @@ const translations = {
         {
           name: "C# Programlama",
           issuer: "BTK Akademi",
-          date: "Mayıs 2024"
+          date: "16 Mayıs 2024",
+          pdf: "assets/CSharp_Programlama_Sertifika.pdf"
         }
       ]
     },
@@ -405,7 +406,8 @@ const translations = {
         {
           name: "C# Programming",
           issuer: "BTK Academy",
-          date: "May 2024"
+          date: "May 16, 2024",
+          pdf: "assets/CSharp_Programlama_Sertifika.pdf"
         }
       ]
     },
