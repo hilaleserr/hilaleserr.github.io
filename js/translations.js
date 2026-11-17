@@ -1,6 +1,6 @@
 /**
  * Hilal Şuheda ESER — Localization Dictionary (TR / EN)
- * Clean, Unified, Zero Redundancy
+ * Portfolio Website
  */
 
 const translations = {
@@ -57,27 +57,54 @@ const translations = {
         badge: "Full-Stack Web",
         title: "Kurumsal Web & İş Birliği Platformları",
         desc: "Angular ve React ile modüler CRM ve platform geliştirme; Node.js, Express ve MSSQL ile güvenli veri mimarisi.",
-        tags: ["Angular", "React", "TypeScript", "Node.js", "MSSQL", "JWT"]
+        tags: [
+          "Angular",
+          "React",
+          "TypeScript",
+          "Node.js",
+          "MSSQL",
+          "JWT"
+        ]
       },
       card2: {
         badge: "Mobil & Düşük Gecikmeli AI",
         title: "Platformlar Arası Mobil & Ses Analizi",
         desc: "Flutter ile mobil arayüz geliştirme; Flask REST API ile düşük gecikmeli gerçek zamanlı ses öznitelik (MFCC) analizi.",
-        tags: ["Flutter", "Dart", "Flask", "Python", "MFCC", "Docker"]
+        tags: [
+          "Flutter",
+          "Dart",
+          "Flask",
+          "Python",
+          "MFCC",
+          "Docker"
+        ]
       },
       card3: {
         badge: "Bilgisayarlı Görü",
         title: "Gerçek Zamanlı Nesne Tespiti (YOLOv8)",
         desc: "8.150+ görsel üzerinde eğitilen YOLOv8s modeli ve görüntü başına ortalama 4.5ms çıkarım hızına ulaşan OpenCV hattı.",
-        tags: ["YOLOv8s", "OpenCV", "Python", "Streamlit", "Scikit-learn"]
+        tags: [
+          "YOLOv8s",
+          "OpenCV",
+          "Python",
+          "Streamlit",
+          "Scikit-learn"
+        ]
       },
       card4: {
         badge: "Akademik & Sertifikasyon",
         title: "Mersin Üniversitesi & BTK Akademi",
         desc: "Bilişim Sistemleri ve Teknolojileri lisans eğitimi ile Google Cloud, Veri Modelleme, Git/GitHub akreditasyonları.",
-        tags: ["CTIS", "Google Cloud", "Data Modeling", "Git/GitHub", "C#"]
+        tags: [
+          "CTIS",
+          "Google Cloud",
+          "Data Modeling",
+          "Git/GitHub",
+          "C#"
+        ]
       }
     },
+
     education: {
       title: "Eğitim",
       period: "2023 - 2027 · Devam Ediyor",
@@ -85,13 +112,52 @@ const translations = {
       school: "Mersin Üniversitesi",
       desc: "Lisans (B.Sc.) — Yazılım mimarileri, veri tabanı sistemleri, algoritmalar, bilgi güvenliği ve yapay zekâ disiplinlerinde kapsamlı akademik eğitim.",
       certsTitle: "Profesyonel Sertifikalar",
+
       certs: [
-        { name: "Google Cloud ile Bulut Bilişim", issuer: "BTK Akademi", date: "Nisan 2026" },
-        { name: "Veri Modelleme (Data Modeling)", issuer: "BTK Akademi", date: "Haziran 2026" },
-        { name: "Versiyon Kontrolleri: Git ve GitHub", issuer: "BTK Akademi", date: "Temmuz 2024" },
-        { name: "C# Programlama", issuer: "BTK Akademi", date: "Mayıs 2024" }
+        {
+          name: "Temel Kriptografi",
+          issuer: "BTK Akademi",
+          date: "17 Kasım 2026",
+          pdf: "assets/Temel_Kriptografi_Sertifika.pdf"
+        },
+        {
+          name: "Veri Modelleme",
+          issuer: "BTK Akademi",
+          date: "18 Haziran 2026",
+          pdf: "assets/Veri_Modelleme_Sertifika.pdf"
+        },
+        {
+          name: "Google Cloud ile Bulut Bilişim",
+          issuer: "BTK Akademi",
+          date: "27 Nisan 2026",
+          pdf: "assets/Google_Cloud_ile_Bulut_Bilisim_Sertifika.pdf"
+        },
+        {
+          name: "Veri Tabanına Giriş",
+          issuer: "BTK Akademi",
+          date: "5 Temmuz 2025",
+          pdf: "assets/Veri_Tabanina_Giris_Sertifika.pdf"
+        },
+        {
+          name: "Versiyon Kontrolleri: Git ve GitHub",
+          issuer: "BTK Akademi",
+          date: "26 Temmuz 2024",
+          pdf: "assets/Versiyon_Kontrolleri_Git_ve_GitHub_Sertifika.pdf"
+        },
+        {
+          name: "İşletim Sistemlerine Giriş",
+          issuer: "BTK Akademi",
+          date: "22 Haziran 2024",
+          pdf: "assets/Isletim_Sistemlerine_Giris_Sertifika.pdf"
+        },
+        {
+          name: "C# Programlama",
+          issuer: "BTK Akademi",
+          date: "Mayıs 2024"
+        }
       ]
     },
+
     experience: {
       title: "İş Deneyimi",
       items: [
@@ -110,19 +176,29 @@ const translations = {
         }
       ]
     },
+
     projects: {
       title: "Seçilmiş Projeler",
       filterAll: "Tümü",
       filterWeb: "Web & Backend",
       filterMobileAI: "Mobil & Yapay Zekâ",
       sourceBtn: "GitHub",
+
       items: [
         {
           id: "creator-nexus",
           category: "web",
           title: "Creator Nexus",
           desc: "Angular (Standalone/Zoneless) ve Node.js/Express mimarisiyle MSSQL üzerinde geliştirilmiş tam kapsamlı geliştirici iş birliği platformu. JWT oturum yönetimi, Bcrypt şifreleme, Nodemailer doğrulama iş akışı ve Helmet başlıkları içeren iki dilli (TR/EN) arayüz.",
-          stack: ["Angular", "Node.js", "Express", "MSSQL", "JWT", "Bcrypt", "SCSS"],
+          stack: [
+            "Angular",
+            "Node.js",
+            "Express",
+            "MSSQL",
+            "JWT",
+            "Bcrypt",
+            "SCSS"
+          ],
           github: "https://github.com/hilaleserr"
         },
         {
@@ -130,7 +206,14 @@ const translations = {
           category: "mobile-ai",
           title: "SmartCry",
           desc: "Bebek ihtiyaçlarını sınıflandırmak üzere geliştirilmiş çapraz platform mobil uygulama ve arka uç sistemi. Flutter UI ile Flask REST API entegre edilerek ses analizleri (MFCC, Mel-Spektrogram) düşük gecikmeyle işlendi; Docker dağıtımına hazırlandı. (2209-A araştırma desteğiyle geliştirilmiştir).",
-          stack: ["Flutter", "Dart", "Flask", "Python", "MFCC", "Docker"],
+          stack: [
+            "Flutter",
+            "Dart",
+            "Flask",
+            "Python",
+            "MFCC",
+            "Docker"
+          ],
           github: "https://github.com/hilaleserr"
         },
         {
@@ -138,11 +221,18 @@ const translations = {
           category: "mobile-ai",
           title: "Smart Recycling & Object Detection",
           desc: "4 atık kategorisi için 8.150'den fazla görsel üzerinde eğitilen YOLOv8s derin öğrenme modeli ve OpenCV tabanlı gerçek zamanlı bilgisayarlı görü hattı. Ortalama 4.5ms çıkarım hızı ile canlı kamera ve statik görüntü analizini sağlayan interaktif Streamlit paneli.",
-          stack: ["Python", "YOLOv8", "OpenCV", "Streamlit", "Scikit-learn"],
+          stack: [
+            "Python",
+            "YOLOv8",
+            "OpenCV",
+            "Streamlit",
+            "Scikit-learn"
+          ],
           github: "https://github.com/hilaleserr"
         }
       ]
     },
+
     contact: {
       title: "İletişim",
       text: "Tam zamanlı iş, staj teklifleri veya projeler için her zaman iletişime geçebilirsiniz.",
@@ -154,11 +244,16 @@ const translations = {
       formMsg: "Mesajınız...",
       formSubmit: "Mesajı İlet"
     },
+
     footer: {
       copy: "© 2026 Hilal Şuheda ESER. Tüm hakları saklıdır.",
       sub: "Mersin Üniversitesi CTIS"
     }
   },
+
+  // ==========================================
+  // ENGLISH LANGUAGE
+  // ==========================================
 
   en: {
     meta: {
@@ -185,8 +280,6 @@ const translations = {
       ctaResume: "Download Resume (PDF)",
       ctaProjects: "Explore Projects",
       ctaContact: "Get in Touch",
-      ctaResumeTr: "Türkçe CV İndir (PDF)",
-      ctaResumeEn: "English Resume (PDF)",
       ctaResumeTr: "Download Turkish CV",
       ctaResumeEn: "Download English Resume"
     },
@@ -210,32 +303,60 @@ const translations = {
       card1Title: "Frontend & Web Development",
       card2Title: "Backend, Database & Applied AI"
     },
+
     bento: {
       card1: {
         badge: "Full-Stack Web",
         title: "Enterprise Web & Collaboration Platforms",
         desc: "Modular CRM and developer platforms with Angular and React; robust backend pipelines with Node.js, Express, and MSSQL.",
-        tags: ["Angular", "React", "TypeScript", "Node.js", "MSSQL", "JWT"]
+        tags: [
+          "Angular",
+          "React",
+          "TypeScript",
+          "Node.js",
+          "MSSQL",
+          "JWT"
+        ]
       },
       card2: {
         badge: "Mobile & Low-Latency AI",
         title: "Cross-Platform Mobile & Audio Processing",
         desc: "Mobile client development with Flutter; real-time infant acoustic feature extraction (MFCC) integrated with Flask REST API.",
-        tags: ["Flutter", "Dart", "Flask", "Python", "MFCC", "Docker"]
+        tags: [
+          "Flutter",
+          "Dart",
+          "Flask",
+          "Python",
+          "MFCC",
+          "Docker"
+        ]
       },
       card3: {
         badge: "Computer Vision",
         title: "Real-Time Object Detection (YOLOv8)",
         desc: "YOLOv8s deep learning model trained on 8,150+ custom images with an optimized 4.5ms/frame OpenCV inference pipeline.",
-        tags: ["YOLOv8s", "OpenCV", "Python", "Streamlit", "Scikit-learn"]
+        tags: [
+          "YOLOv8s",
+          "OpenCV",
+          "Python",
+          "Streamlit",
+          "Scikit-learn"
+        ]
       },
       card4: {
         badge: "Academic & Accreditations",
         title: "Mersin University & BTK Academy",
         desc: "CTIS bachelor's degree studies along with verified credentials in Google Cloud, Data Modeling, Git/GitHub, and C#.",
-        tags: ["CTIS", "Google Cloud", "Data Modeling", "Git/GitHub", "C#"]
+        tags: [
+          "CTIS",
+          "Google Cloud",
+          "Data Modeling",
+          "Git/GitHub",
+          "C#"
+        ]
       }
     },
+
     education: {
       title: "Education",
       period: "2023 - 2027 · In Progress",
@@ -243,13 +364,52 @@ const translations = {
       school: "Mersin University",
       desc: "Bachelor's Degree (B.Sc.) — Software engineering, relational databases, data structures, information security, and applied machine learning.",
       certsTitle: "Professional Certifications",
+
       certs: [
-        { name: "Cloud Computing with Google Cloud", issuer: "BTK Academy", date: "April 2026" },
-        { name: "Data Modeling", issuer: "BTK Academy", date: "June 2026" },
-        { name: "Version Control: Git and GitHub", issuer: "BTK Academy", date: "July 2024" },
-        { name: "C# Programming", issuer: "BTK Academy", date: "May 2024" }
+        {
+          name: "Fundamentals of Cryptography",
+          issuer: "BTK Academy",
+          date: "November 17, 2026",
+          pdf: "assets/Temel_Kriptografi_Sertifika.pdf"
+        },
+        {
+          name: "Data Modeling",
+          issuer: "BTK Academy",
+          date: "June 18, 2026",
+          pdf: "assets/Veri_Modelleme_Sertifika.pdf"
+        },
+        {
+          name: "Cloud Computing with Google Cloud",
+          issuer: "BTK Academy",
+          date: "April 27, 2026",
+          pdf: "assets/Google_Cloud_ile_Bulut_Bilisim_Sertifika.pdf"
+        },
+        {
+          name: "Introduction to Databases",
+          issuer: "BTK Academy",
+          date: "July 5, 2025",
+          pdf: "assets/Veri_Tabanina_Giris_Sertifika.pdf"
+        },
+        {
+          name: "Version Control: Git and GitHub",
+          issuer: "BTK Academy",
+          date: "July 26, 2024",
+          pdf: "assets/Versiyon_Kontrolleri_Git_ve_GitHub_Sertifika.pdf"
+        },
+        {
+          name: "Introduction to Operating Systems",
+          issuer: "BTK Academy",
+          date: "June 22, 2024",
+          pdf: "assets/Isletim_Sistemlerine_Giris_Sertifika.pdf"
+        },
+        {
+          name: "C# Programming",
+          issuer: "BTK Academy",
+          date: "May 2024"
+        }
       ]
     },
+
     experience: {
       title: "Work Experience",
       items: [
@@ -268,19 +428,29 @@ const translations = {
         }
       ]
     },
+
     projects: {
       title: "Featured Projects",
       filterAll: "All",
       filterWeb: "Web & Backend",
       filterMobileAI: "Mobile & AI",
       sourceBtn: "GitHub",
+
       items: [
         {
           id: "creator-nexus",
           category: "web",
           title: "Creator Nexus",
           desc: "Full-stack developer platform architected with Angular (Standalone/Zoneless) and Node.js/Express over MSSQL. Engineered an end-to-end security pipeline featuring JWT session management, Bcrypt hashing, Nodemailer verification, and Helmet headers with a bilingual (EN/TR) interface.",
-          stack: ["Angular", "Node.js", "Express", "MSSQL", "JWT", "Bcrypt", "SCSS"],
+          stack: [
+            "Angular",
+            "Node.js",
+            "Express",
+            "MSSQL",
+            "JWT",
+            "Bcrypt",
+            "SCSS"
+          ],
           github: "https://github.com/hilaleserr"
         },
         {
@@ -288,7 +458,14 @@ const translations = {
           category: "mobile-ai",
           title: "SmartCry",
           desc: "Cross-platform mobile application and backend service designed for infant acoustic classification. Connected a Flutter client with a Flask REST API to process audio features (MFCC, Mel-Spectrogram) under low latency; prepared for Docker containerization. (Developed under a 2209-A research grant).",
-          stack: ["Flutter", "Dart", "Flask", "Python", "MFCC", "Docker"],
+          stack: [
+            "Flutter",
+            "Dart",
+            "Flask",
+            "Python",
+            "MFCC",
+            "Docker"
+          ],
           github: "https://github.com/hilaleserr"
         },
         {
@@ -296,11 +473,18 @@ const translations = {
           category: "mobile-ai",
           title: "Smart Recycling & Object Detection",
           desc: "Trained a YOLOv8s deep learning model on 8,150+ custom images for waste classification. Implemented an OpenCV computer vision pipeline optimizing BGR-RGB conversion to achieve a 4.5ms inference speed per frame, deployed via an interactive Streamlit dashboard.",
-          stack: ["Python", "YOLOv8", "OpenCV", "Streamlit", "Scikit-learn"],
+          stack: [
+            "Python",
+            "YOLOv8",
+            "OpenCV",
+            "Streamlit",
+            "Scikit-learn"
+          ],
           github: "https://github.com/hilaleserr"
         }
       ]
     },
+
     contact: {
       title: "Contact",
       text: "Open to full-time software engineering roles, enterprise internships, and collaborative development opportunities.",
@@ -312,6 +496,7 @@ const translations = {
       formMsg: "Your message...",
       formSubmit: "Send Message"
     },
+
     footer: {
       copy: "© 2026 Hilal Şuheda ESER. All rights reserved.",
       sub: "Mersin University CTIS"
